@@ -1,0 +1,140 @@
+/*CÓDIGO DE ESTILO EN CSS DESARROLLADO POR: KEVIN SISA*/
+/*APLICACIONES WEB Y MÓVILES*/
+
+/*Título de Registrar y botón de exit*/
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Diseño del título Registrar*/
+.titulo{
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+/*Diseño para el fondo de pantalla*/
+body{
+    height: 600px;
+    background-image: url("fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box
+}
+
+/*Display Flex para que el recuadro de nombre y apellido esten en la misma línea*/
+.nombres{
+    display: flex;
+    justify-content: space-between;
+}
+/*Diseño de los recuadros de nombre y apellido*/
+.controlNombre {
+    margin-top: 10px;
+    width: 43%;
+    padding: 10px;
+    margin-bottom: 14px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+}
+/*Diseño de los recuadros de correo y contraseña*/
+.controls {
+    width: 94%;
+    background: #F5F5F5;
+    padding: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+  }
+
+/*Display Flex para los recuadros de día mes año*/
+.fecha{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*Diseño de los recuadros de día mes año*/
+.date{
+    width: 31%;
+    padding: 9px;
+    margin-bottom: 13px;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+/*Display Flex para los radio de género*/
+.genero{
+    display: flex;
+    justify-content: space-between;
+}
+/*Diseño de los radio de género*/
+.gender{
+    width: 24%;
+    padding: 9px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+/*Diseño de el recuadro de género personalizado*/
+.genderper{
+    padding: 9px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+/*Diseño para que aparezca la mano al pulsar la imagen*/
+.imgIncognita{
+    cursor: pointer;
+}
+
+/*Diseño del formulario*/
+.formRegister{
+    font-family:Arial;
+    box-sizing: border-box;
+    width: 430px;
+    height: 510px;
+    background: #ffffff;
+    padding: 15px;
+    margin: auto;
+    margin-top: 180px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*Tamaño de letra de las etiquetas sexo y fecha de nacimiento*/
+.etiqueta{
+    font-size: 14px;
+    color: grey;
+}
+/*Diseño del texto de normas*/
+.normas{
+    text-align: justify;
+    font-size:x-small;
+}
+/*Diseño del div class del botón registrar*/
+.btnRegistro{
+    display: flex;
+    justify-content: center;
+}
+/*Diseño del botón de registrar*/
+.registrarsebtn {
+    text-align: center;
+    background-color: #3f9f3f;
+    padding: 9px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: white;
+    font-size:large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+
